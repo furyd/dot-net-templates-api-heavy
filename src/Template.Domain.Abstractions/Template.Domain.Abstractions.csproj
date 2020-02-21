@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Template.Exceptions\Template.Exceptions.csproj" />
+    <ProjectReference Include="..\Template.Models\Template.Models.csproj" />
+    <ProjectReference Include="..\Template.Services.Abstractions\Template.Services.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="8.6.1" />
+    <PackageReference Include="Scrutor" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Template.Domain.Abstractions\Template.Domain.Abstractions.csproj" />
+    <ProjectReference Include="..\Template.Domain.V1\Template.Domain.V1.csproj" />
+    <ProjectReference Include="..\Template.Exceptions\Template.Exceptions.csproj" />
+    <ProjectReference Include="..\Template.Models\Template.Models.csproj" />
+    <ProjectReference Include="..\Template.Repositories.Abstractions\Template.Repositories.Abstractions.csproj" />
+    <ProjectReference Include="..\Template.Repositories.Example\Template.Repositories.Example.csproj" />
+    <ProjectReference Include="..\Template.Services.Abstractions\Template.Services.Abstractions.csproj" />
+    <ProjectReference Include="..\Template.Services.Example\Template.Services.Example.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+
+</Project>
