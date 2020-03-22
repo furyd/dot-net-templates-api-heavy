@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using System.Threading.Tasks;
-using Template.Models;
+using ReservoirDevs.Common.Models;
 using Template.Repositories.Abstractions.Interfaces;
 using Template.Services.Abstractions.Interfaces;
 

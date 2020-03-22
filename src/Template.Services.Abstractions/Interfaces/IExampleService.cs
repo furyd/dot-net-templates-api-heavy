@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using Template.Models;
+using ReservoirDevs.Common.Models;
 
 namespace Template.Services.Abstractions.Interfaces
 {

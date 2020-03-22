@@ -6,6 +6,8 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="ReservoirDevs.Common.Extensions" Version="1.0.0" />
+    <PackageReference Include="ReservoirDevs.Common.Models" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>

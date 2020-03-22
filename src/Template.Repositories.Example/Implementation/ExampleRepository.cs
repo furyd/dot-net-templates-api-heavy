@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
 using System;
 using System.Threading.Tasks;
+using ReservoirDevs.Common.Models;
 using Template.Exceptions;
-using Template.Models;
 using Template.Repositories.Abstractions.Interfaces;
 using Template.Repositories.Example.DataTransferObjects;
 

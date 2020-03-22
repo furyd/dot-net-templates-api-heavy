@@ -5,8 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="ReservoirDevs.Common.Models" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Template.Exceptions\Template.Exceptions.csproj" />
-    <ProjectReference Include="..\Template.Models\Template.Models.csproj" />
     <ProjectReference Include="..\Template.Repositories.Abstractions\Template.Repositories.Abstractions.csproj" />
   </ItemGroup>
 
